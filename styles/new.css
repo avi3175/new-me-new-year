@@ -6,6 +6,7 @@
     position: absolute;
     top: 0;
     left: 0;
+    margin-bottom: 100px;
 }
 .all-things-are-possible{
     font-size: 35px;
@@ -25,18 +26,7 @@
     margin-right:150px;
     margin-bottom: 50px;
 }
-/* .contact-us{
-    font-family: worksans;
-    font-size: 20px;
-    font-weight: 200;
-    color:#005FAC;
-    background-color: wheat;
-    text-align: right;
-    margin-right: 40px;
-    width: 150px;
-    height:500px ;
-    border-radius: 5px;
-} */
+
 .submit{
     text-align: right;
     background-color: #ffffff;
@@ -50,4 +40,64 @@
 }
 a{
     text-decoration: none;
+}
+
+/* MY FAILURES OF THE YEAR STYLES */
+
+.second-banner{
+font-family: Work Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: left;
+position: absolute;
+height: 94px;
+width: 300px;
+left: 862px;
+top: 1000px;
+border-radius: nullpx;
+
+}
+
+.second-image{
+    height: 724px;
+    width: 569px;
+    left: 206px;
+    top: 939px;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.failure-description{
+        font-family: Work Sans;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 47px;
+        letter-spacing: 0em;
+        color:#444343;
+        text-align: left;
+        position: absolute;
+        height: 104px;
+        width: 416px;
+        margin-bottom: 0;
+}
+#my-failure-of{
+    width: 400px;
+    margin-bottom: 0;
+}
+#previous-year{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.list{
+    position: absolute;
+    top: 320px;
+    font-size: 15px;
+    font-family: work sans;
+    color: #444343;
+}
+.list-item{
+    list-style: none;
 }
