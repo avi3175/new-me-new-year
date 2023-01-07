@@ -1,24 +1,53 @@
 /* HEADER STYLES */
 .header{
     background-image: url(../images/banner/banner3.png);
-    height: 808px;
     width: 1600px;
-    left: 0px;
-    top: 0px;
-    border-radius: 0px;
+    height: 820px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .all-things-are-possible{
-    height: 228px;
-    width: 525px;
-    color:#FFFFFF;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    line-height: 76px;
-    position: absolute;
-    height: 228px;
-    left: 845px;
-    top: 216px;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: work sans;
+    color: #ffffff;
+    text-align:right;
+    margin-top: 200px;
+    margin-right: 150px;
+}
+.intro-paragraph{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: work sans;
+    color: #ffffff;
     text-align: right;
-
+    margin-right:150px;
+    margin-bottom: 50px;
+}
+/* .contact-us{
+    font-family: worksans;
+    font-size: 20px;
+    font-weight: 200;
+    color:#005FAC;
+    background-color: wheat;
+    text-align: right;
+    margin-right: 40px;
+    width: 150px;
+    height:500px ;
+    border-radius: 5px;
+} */
+.submit{
+    text-align: right;
+    background-color: #ffffff;
+    color:#005FAC;
+    border-radius: 5px;
+    padding: 30px 40px;
+}
+.set{
+    text-align: right;
+    margin-right: 150px;
+}
+a{
+    text-decoration: none;
 }
