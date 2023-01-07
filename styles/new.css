@@ -1,0 +1,24 @@
+/* HEADER STYLES */
+.header{
+    background-image: url(../images/banner/banner3.png);
+    height: 808px;
+    width: 1600px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+.all-things-are-possible{
+    height: 228px;
+    width: 525px;
+    color:#FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 76px;
+    position: absolute;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    text-align: right;
+
+}
