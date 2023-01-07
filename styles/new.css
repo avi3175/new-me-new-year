@@ -101,3 +101,58 @@ border-radius: nullpx;
 .list-item{
     list-style: none;
 }
+
+/* MY PLANS STYLE */
+
+.plan-banner{
+    position: absolute;
+    top: 1700px;
+    color: black;
+    left: 680px;
+    right: 700px;
+    font-size: 25px;
+}
+
+.my-plans{
+    position: absolute;
+    top: 1800px;
+    left: 180px;
+    text-align: right;
+    display: flex;
+    gap: 300px;
+}
+
+.image-work{
+    position: absolute;
+    top: 2222px;
+    /* left: ; */
+    /* border: 5px solid black; */
+    /* border-radius: 5px; */
+    width: 1140px;
+    height: 301px;
+    left: 230px;
+    background-image: url(../images/gradient1.png),url(../images/watch.png);
+}
+.quote{
+    position: absolute;
+    top: 59px;
+    left: 64px;
+    font-size: 28px;
+    font-weight: 400;
+    font-family: work sans;
+    color: #ffffff;
+}
+.positive{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.mindset{
+    margin-top: 0;
+}
+.call-now{
+    font-size: 15px;
+    color: #005FAC;
+    background-color: wheat;
+    padding: 25px 45px;
+    border-radius: 5px;
+}
