@@ -141,6 +141,10 @@ border-radius: nullpx;
     font-family: work sans;
     color: rgb(85, 53, 53);
 }
+#practise-issue{
+    font-size: 30px;
+    color: red;
+}
 .image-work{
     position: absolute;
     top: 2300px;
