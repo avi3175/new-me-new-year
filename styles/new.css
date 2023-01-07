@@ -1,12 +1,13 @@
 /* HEADER STYLES */
 .header{
     background-image: url(../images/banner/banner3.png);
-    width: 1600px;
+    width: 100%;
     height: 820px;
     position: absolute;
     top: 0;
     left: 0;
     margin-bottom: 100px;
+    background-size: cover;
 }
 .all-things-are-possible{
     font-size: 35px;
@@ -155,4 +156,45 @@ border-radius: nullpx;
     background-color: wheat;
     padding: 25px 45px;
     border-radius: 5px;
+}
+/* FOOTER STYLES */
+
+.footer{
+    position: absolute;
+    width:100%;
+    height: 577px;
+    top: 2650px;
+    left: 0;
+    background-color: #151414;
+    color: #ffffff;
+    /* display: flex; */
+    gap: 50px;
+}
+
+.btn-subscribe{
+    background-color: #005FAC;
+    color: #ffffff;
+    padding: 20px 45px;
+    position: absolute;
+    top: 150px;
+    border-radius: 5px;
+}
+.footer-form input{
+    width: 250px;
+    height: 50px;
+    background-color: #444343;
+    border-radius: 5px;
+}
+.footer-form input[type='email'] {
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+.footer-flex{
+    display: flex;
+    gap: 500px;
+    position: absolute;
+    top: 80px;
+    left: 150px; 
+
 }
