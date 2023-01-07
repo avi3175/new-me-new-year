@@ -87,6 +87,9 @@ border-radius: nullpx;
     width: 400px;
     margin-bottom: 0;
 }
+.future p{
+    font-size: 25px;
+}
 #previous-year{
     width: 400px;
     margin-top: 10px;
@@ -107,31 +110,46 @@ border-radius: nullpx;
 
 .plan-banner{
     position: absolute;
-    top: 1700px;
+    top: 1800px;
     color: black;
-    left: 680px;
+    left: 900px;
     right: 700px;
-    font-size: 25px;
+    font-size: 30px;
 }
+
 
 .my-plans{
     position: absolute;
-    top: 1800px;
-    left: 180px;
+    top: 2000px;
+    left: 200px;
     text-align: right;
     display: flex;
     gap: 300px;
+    font-size: 20px;
 }
-
+.my-plans p,h3{
+    font-size: 25px;
+}
+.second-banner p{
+    font-size: 25px;
+}
+.second-banner h3{
+    font-size: 30px;
+}
+.list-item li{
+    font-size: 20px;
+    font-family: work sans;
+    color: rgb(85, 53, 53);
+}
 .image-work{
     position: absolute;
-    top: 2222px;
+    top: 2300px;
     /* left: ; */
     /* border: 5px solid black; */
     /* border-radius: 5px; */
     width: 1140px;
     height: 301px;
-    left: 230px;
+    left: 430px;
     background-image: url(../images/gradient1.png),url(../images/watch.png);
 }
 .quote{
@@ -176,7 +194,7 @@ border-radius: nullpx;
     color: #ffffff;
     padding: 20px 45px;
     position: absolute;
-    top: 150px;
+    top: 190px;
     border-radius: 5px;
 }
 .footer-form input{
@@ -192,9 +210,12 @@ border-radius: nullpx;
 
 .footer-flex{
     display: flex;
-    gap: 500px;
+    gap: 1000px;
     position: absolute;
     top: 80px;
     left: 150px; 
 
+}
+#subscribe-banner{
+    font-size: 25px;
 }
